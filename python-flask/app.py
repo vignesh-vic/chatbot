@@ -20,7 +20,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 CORS(app,resources={r'/*':{"origins":"*"}})
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Define Langchain functions
 def get_vectorstore_from_url(url):
